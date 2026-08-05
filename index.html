@@ -1,0 +1,1078 @@
+<!doctype html>
+<html lang="zh-CN">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    (function() {
+      var theme = localStorage.getItem("theme");
+      if (!theme) {
+        theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="/assets/styles.css"><!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>AOR1Eの小屋 | 生命是一万次春和景明</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="AOR1Eの小屋" />
+<meta name="author" content="Liu Shengyu" />
+<meta property="og:locale" content="zh_CN" />
+<meta name="description" content="生命是一万次春和景明" />
+<meta name="twitter:description" property="og:description" content="生命是一万次春和景明" />
+<link rel="canonical" href="https://aor1e.github.io/" />
+<meta property="og:url" content="https://aor1e.github.io/" />
+<meta property="og:site_name" content="AOR1Eの小屋" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="AOR1Eの小屋" />
+<meta name="twitter:site" content="@AOR1E" />
+<meta name="twitter:creator" content="@Liu Shengyu" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Liu Shengyu","url":"https://github.com/AOR1E/"},"description":"生命是一万次春和景明","headline":"AOR1Eの小屋","name":"Liu Shengyu","sameAs":["https://github.com/AOR1E"],"url":"https://aor1e.github.io/"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="https://aor1e.github.io/feed.xml" title="AOR1Eの小屋" /><link rel="icon" href="https://patchwiki.biligame.com/images/zspms/thumb/9/9a/f2knyj5cojth9lnd2cb2ll2w6znqo1e.png/48px-%E5%B0%8F%E5%8A%9B_%E7%81%B0%E9%B8%A6%E5%B0%8F%E9%98%9F.png" type="image/png">
+</head>
+
+
+  <body>
+
+    <button id="theme-toggle" aria-label="切换黑夜模式">
+      <span id="theme-icon">🌙</span>
+    </button>
+
+    <div class="container pure-g"><div class="sidebar-left pure-u-1 pure-u-md-1-4" style="background-color: rgb(40, 73, 77); color: rgb(255, 255, 255); background-image: url(/bg.jpeg);"><header class="masthead">
+  <div class="avatar"><img src="/avatar.jpeg" class="avatar-image" alt="Liu Shengyu">
+    </div>
+  <div class="masthead-title">
+    <a href="/" title="Home">AOR1Eの小屋</a>
+  </div>
+  <div class="masthead-tagline">
+    <small>生命是一万次春和景明</small>
+  </div><nav class="navigation">
+    <ul class="navigation-list"><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/">Blog</a>
+      </li><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/about/">About</a>
+      </li></ul>
+  </nav><div class="social pure-menu pure-menu-horizontal">
+      <ul class="social-icons pure-menu-list">
+      <li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://github.com/AOR1E">
+            <i class="fab fa-github" title="GitHub"></i>
+          </a>
+        </li><li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://space.bilibili.com/475610280">
+            <i class="fab fa-bilibili" title="Bilibili"></i>
+          </a>
+        </li><li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://www.douyin.com/user/1217515446">
+            <i class="fab fa-tiktok" title="Douyin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+</header>
+</div>
+
+      <div class="content pure-u-1 pure-u-md-1-2"><main>
+  <div class="home-header pure-menu pure-menu-horizontal">
+  <div class="home-header-bar">
+    
+    <ul class="home-header-menu pure-menu-list">
+      
+        <li class="pure-menu-item">
+          <a href="/dates/" class="pure-menu-link "">Dates</a>
+        </li>
+      
+        <li class="pure-menu-item">
+          <a href="/tags/" class="pure-menu-link "">Tags</a>
+        </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<style>
+#relation-graph {
+  width: 100%;
+  height: 560px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f8f9ff 0%, #f0f4f8 100%);
+  margin: 16px 0;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+#relation-graph svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.graph-section {
+  margin: 24px 0;
+}
+.graph-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.graph-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  color: #2c3e50;
+}
+.graph-controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.graph-controls .filter-btn {
+  padding: 5px 16px;
+  border-radius: 20px;
+  border: 2px solid #d0d5e0;
+  background: rgba(255,255,255,0.8);
+  color: #555;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  outline: none;
+}
+.graph-controls .filter-btn:hover {
+  border-color: #7b95c6;
+  color: #2c3e50;
+}
+.graph-controls .filter-btn.active {
+  border-color: #7b95c6;
+  background: #7b95c6;
+  color: #fff;
+}
+.graph-tooltip {
+  position: absolute;
+  background: rgba(44, 62, 80, 0.92);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  z-index: 10;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  backdrop-filter: blur(8px);
+}
+.graph-tooltip .tt-name { font-weight: 600; }
+.graph-tooltip .tt-desc { opacity: 0.85; font-size: 12px; }
+.node-label {
+  font-size: 13px;
+  font-weight: 500;
+  fill: #2c3e50;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+  text-shadow: 0 1px 3px rgba(255,255,255,0.8);
+}
+.center-label {
+  font-size: 16px;
+  font-weight: 700;
+  fill: #fff;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+}
+.link-label {
+  font-size: 11px;
+  fill: #666;
+  text-anchor: middle;
+  dominant-baseline: central;
+  paint-order: stroke;
+  stroke: rgba(255,255,255,0.85);
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  font-style: italic;
+}
+.graph-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #999;
+  font-size: 15px;
+  font-weight: 500;
+}
+</style>
+
+<div class="graph-section">
+  <div class="graph-header">
+    <h3 class="graph-title">我的人际关系</h3>
+    <div class="graph-controls" id="graph-controls"></div>
+  </div>
+  <div id="relation-graph">
+    <div class="graph-tooltip" id="graph-tooltip"></div>
+  </div>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+(function() {
+  var container = document.getElementById("relation-graph");
+  var tooltip = document.getElementById("graph-tooltip");
+
+  // ──────────────────────────────────────────────
+  // 1. 配置常量
+  // ──────────────────────────────────────────────
+  var palette = [
+    "#7b95c6","#49c2d9","#a1d8e8","#67a583",
+    "#a2c986","#d0e2c0","#fded95","#ffc1a6",
+    "#f59c7c","#f47254","#c85e62"
+  ];
+
+  // 距离层级 → 节点大小映射（可在此统一调整）
+  var radiusMap = {
+    close:  26,
+    normal: 22,
+    distant: 18
+  };
+
+  // ──────────────────────────────────────────────
+  // 2. 从 Jekyll 数据源读取
+  // ──────────────────────────────────────────────
+  var distanceTiers = {
+    
+    "close": 130,
+    
+    "normal": 200,
+    
+    "distant": 220
+    
+  };
+
+  var periods = [
+    
+    { id: "highschool", name: "高中" },
+    
+    { id: "university", name: "大学" }
+    
+  ];
+
+  var centerNode = { id: "center", label: "我", isCenter: true };
+
+  var people = [
+    
+    {
+      id: "p1",
+      name: "QHY",
+      period: "highschool",
+      type: "挚友",
+      distance: "close",
+      desc: "原岁并谢，与友同行"
+    },
+    
+    {
+      id: "p2",
+      name: "FXY",
+      period: "highschool",
+      type: "发小",
+      distance: "close",
+      desc: "梅子青，故人离"
+    },
+    
+    {
+      id: "p3",
+      name: "XX",
+      period: "highschool",
+      type: "朋友(决裂)",
+      distance: "distance",
+      desc: "茕茕白兔，东走西顾"
+    },
+    
+    {
+      id: "p4",
+      name: "YYH",
+      period: "highschool",
+      type: "挚友",
+      distance: "close",
+      desc: "嬉笑怒骂常欢聚，诗词歌赋有惊云"
+    },
+    
+    {
+      id: "p5",
+      name: "YJ",
+      period: "university",
+      type: "室友",
+      distance: "normal",
+      desc: "7-225"
+    },
+    
+    {
+      id: "p6",
+      name: "JWJ",
+      period: "university",
+      type: "室友",
+      distance: "normal",
+      desc: "7-225"
+    },
+    
+    {
+      id: "p7",
+      name: "CHY",
+      period: "university",
+      type: "室长",
+      distance: "normal",
+      desc: "7-225"
+    },
+    
+    {
+      id: "p8",
+      name: "LMX",
+      period: "university",
+      type: "学生会同窗",
+      distance: "close",
+      desc: "世界纵然不会为此而停，但增添，你美丽------祝你在墨尔本留学愉快"
+    },
+    
+    {
+      id: "p9",
+      name: "LYX",
+      period: "university",
+      type: "学生会同窗",
+      distance: "close",
+      desc: "暂歇棹，养万里风；盏盏灯，照后来峰"
+    },
+    
+    {
+      id: "p10",
+      name: "HFH",
+      period: "university",
+      type: "学生会同窗",
+      distance: "close",
+      desc: "铁龙踏破长安雪，从此天涯不转弯"
+    },
+    
+    {
+      id: "p11",
+      name: "TFJR",
+      period: "university",
+      type: "学生会同窗",
+      distance: "close",
+      desc: "未向书中觅封侯，江湖自有剑横秋"
+    },
+    
+    {
+      id: "p12",
+      name: "LZL",
+      period: "university",
+      type: "学生会同窗",
+      distance: "close",
+      desc: "幽兰在谷，静水生香"
+    },
+    
+    {
+      id: "p13",
+      name: "QHY",
+      period: "university",
+      type: "兄弟（决裂）",
+      distance: "distance",
+      desc: "时风已钝，且祝你长青"
+    },
+    
+    {
+      id: "p14",
+      name: "QHY",
+      period: "university",
+      type: "朋友",
+      distance: "normal",
+      desc: "起火 堆山 登高 死亡"
+    },
+    
+    {
+      id: "p15",
+      name: "YD",
+      period: "university",
+      type: "兄弟",
+      distance: "close",
+      desc: "很喜欢和你打CSGO"
+    },
+    
+    {
+      id: "p16",
+      name: "SSQ",
+      period: "university",
+      type: "知己",
+      distance: "close",
+      desc: "Maiden，your simplicity，like the buleness of the lake,reveals your depth of truth"
+    },
+    
+    {
+      id: "p17",
+      name: "HXC",
+      period: "university",
+      type: "知己",
+      distance: "close",
+      desc: "严浩翔老婆啦"
+    }
+    
+  ];
+
+  // ──────────────────────────────────────────────
+  // 3. 状态 & 渲染函数
+  // ──────────────────────────────────────────────
+  var svg, simulation, linkLine, linkLabel, nodeGroup;
+
+  function render(filter) {
+    container.innerHTML = "<div class=\"graph-tooltip\" id=\"graph-tooltip\"></div>";
+    tooltip = document.getElementById("graph-tooltip");
+
+    // 过滤
+    var filtered = filter === "all"
+      ? people
+      : people.filter(function(p) { return p.period === filter; });
+
+    if (filtered.length === 0) {
+      container.innerHTML += "<div class=\"graph-empty\">该时期暂无人际关系数据</div>";
+      return;
+    }
+
+    // 分配配色
+    filtered.forEach(function(p, i) {
+      p.color = palette[i % palette.length];
+    });
+
+    // 构建节点 & 连线
+    var nodes = [centerNode];
+    var links = [];
+    filtered.forEach(function(p) {
+      nodes.push(p);
+      // 从 distanceTiers 读取距离像素值，fallback 200
+      var dist = distanceTiers[p.distance] || 200;
+      var radius = radiusMap[p.distance] || 22;
+      p.radius = radius;
+      links.push({
+        source: "center",
+        target: p.id,
+        label: p.type,
+        dist: dist,
+        strength: 1 - (dist - 80) / 400  // 越近强度越大
+      });
+    });
+
+    // ─── SVG ───
+    var width = container.clientWidth || 800;
+    var height = container.clientHeight || 560;
+    svg = d3.select(container).insert("svg", ".graph-tooltip")
+        .attr("viewBox", [0, 0, width, height])
+        .style("position", "absolute")
+        .style("top", 0).style("left", 0);
+
+    tooltip = document.getElementById("graph-tooltip");
+    var defs = svg.append("defs");
+
+    // 阴影滤镜
+    defs.append("filter").attr("id","ns").attr("x","-50%").attr("y","-50%").attr("width","200%").attr("height","200%")
+      .append("feDropShadow").attr("dx",0).attr("dy",2).attr("stdDeviation",4).attr("flood-opacity",0.18);
+    defs.append("filter").attr("id","ns-lg").attr("x","-50%").attr("y","-50%").attr("width","200%").attr("height","200%")
+      .append("feDropShadow").attr("dx",0).attr("dy",3).attr("stdDeviation",6).attr("flood-opacity",0.25);
+
+    // 自定义箭头（每根线用自己的颜色）
+    defs.selectAll("marker.custom-arrow")
+      .data(links)
+      .enter().append("marker")
+      .attr("class","custom-arrow")
+      .attr("id", function(d,i) { return "arrow-" + i; })
+      .attr("viewBox","0 -5 10 10")
+      .attr("refX", function(d) {
+        var tgt = filtered.find(function(p) { return p.id === d.target.id; });
+        return tgt ? tgt.radius + 4 : 28;
+      })
+      .attr("refY", 0)
+      .attr("markerWidth", 7)
+      .attr("markerHeight", 7)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("fill", function(d) {
+        var tgt = filtered.find(function(p) { return p.id === d.target.id; });
+        return tgt ? tgt.color : "#999";
+      })
+      .attr("d", "M0,-5L10,0L0,5");
+
+    // ─── 连线 ───
+    var linkGroup = svg.append("g");
+    linkLine = linkGroup.selectAll("line").data(links).enter().append("line")
+      .attr("stroke", function(d) {
+        var tgt = filtered.find(function(p) { return p.id === d.target.id; });
+        return tgt ? d3.color(tgt.color).darker(0.2).formatHex() : "#999";
+      })
+      .attr("stroke-width", 2.2)
+      .attr("stroke-opacity", 0.6)
+      .attr("marker-end", function(d,i) { return "url(#arrow-" + i + ")"; });
+
+    linkLabel = linkGroup.selectAll(".link-label").data(links).enter().append("text")
+      .attr("class","link-label")
+      .attr("dy", "-8")
+      .text(function(d) { return d.label; });
+
+    // ─── 节点 ───
+    nodeGroup = svg.append("g").selectAll("g").data(nodes).enter().append("g")
+      .style("cursor","grab")
+      .style("opacity", 0);
+
+    nodeGroup.append("circle")
+      .attr("r", function(d) { return d.isCenter ? 30 : d.radius; })
+      .attr("fill", function(d) { return d.isCenter ? "#2c3e50" : d.color; })
+      .attr("stroke", "#fff")
+      .attr("stroke-width", 3)
+      .attr("filter", function(d) { return d.isCenter ? "url(#ns-lg)" : "url(#ns)"; });
+
+    nodeGroup.filter(function(d) { return d.isCenter; })
+      .append("text").attr("class","center-label").text(function(d) { return d.label; });
+
+    nodeGroup.filter(function(d) { return !d.isCenter; })
+      .append("text").attr("class","node-label")
+      .attr("dy", function(d) { return d.radius + 14; })
+      .text(function(d) { return d.name; });
+
+    nodeGroup.transition().duration(400).style("opacity", 1);
+
+    // ─── 悬停 ───
+    nodeGroup.filter(function(d) { return !d.isCenter; })
+      .on("mouseenter", function(ev, d) {
+        d3.select(this).select("circle")
+          .transition().duration(200).attr("r", d.radius + 4).attr("filter","url(#ns-lg)");
+        d3.select(this).select("text.node-label")
+          .transition().duration(200).attr("dy", d.radius + 18).style("font-weight","700");
+        tooltip.style.opacity = 1;
+        tooltip.innerHTML = "<span class=\"tt-name\">" + d.name + "</span>" +
+          (d.desc ? "<br><span class=\"tt-desc\">" + d.desc + "</span>" : "");
+      })
+      .on("mousemove", function(ev) {
+        var rect = container.getBoundingClientRect();
+        tooltip.style.left = Math.min(ev.clientX - rect.left + 16, width - 180) + "px";
+        tooltip.style.top  = Math.max(ev.clientY - rect.top - 36, 8) + "px";
+      })
+      .on("mouseleave", function(ev, d) {
+        d3.select(this).select("circle")
+          .transition().duration(200).attr("r", d.radius).attr("filter","url(#ns)");
+        d3.select(this).select("text.node-label")
+          .transition().duration(200).attr("dy", d.radius + 14).style("font-weight","500");
+        tooltip.style.opacity = 0;
+      });
+
+    // ─── 拖拽 ───
+    var dragHandler = d3.drag()
+      .on("start", function(ev, d) {
+        if (!ev.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x; d.fy = d.y;
+        d3.select(this).style("cursor","grabbing");
+        d3.select(this).select("circle")
+          .transition().duration(150)
+          .attr("filter","url(#ns-lg)")
+          .attr("r", function(n) { return n.isCenter ? 32 : (n.radius + 2); });
+      })
+      .on("drag", function(ev, d) { d.fx = ev.x; d.fy = ev.y; })
+      .on("end", function(ev, d) {
+        if (!ev.active) simulation.alphaTarget(0);
+        d.fx = null; d.fy = null;
+        d3.select(this).style("cursor","grab");
+        d3.select(this).select("circle")
+          .transition().duration(300)
+          .attr("filter", function(n) { return n.isCenter ? "url(#ns-lg)" : "url(#ns)"; })
+          .attr("r", function(n) { return n.isCenter ? 30 : n.radius; });
+      });
+    nodeGroup.call(dragHandler);
+
+    // ─── Force Simulation ───
+    simulation = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id(function(d) { return d.id; })
+        .distance(function(d) { return d.dist; })
+        .strength(function(d) { return d.strength; }))
+      .force("charge", d3.forceManyBody().strength(-400))
+      .force("center", d3.forceCenter(width / 2, height / 2))
+      .force("collision", d3.forceCollide().radius(function(d) {
+        return d.isCenter ? 35 : ((d.radius || 22) + 8);
+      }))
+      .alphaDecay(0.025)
+      .on("tick", ticked);
+  }
+
+  function ticked() {
+    linkLine
+      .attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+
+    linkLabel
+      .attr("x", function(d) { return d.source.x * 0.4 + d.target.x * 0.6; })
+      .attr("y", function(d) { return d.source.y * 0.4 + d.target.y * 0.6; });
+
+    nodeGroup.attr("transform", function(d) {
+      return "translate(" + d.x + "," + d.y + ")";
+    });
+  }
+
+  // ──────────────────────────────────────────────
+  // 4. 控制按钮
+  // ──────────────────────────────────────────────
+  var controlsEl = document.getElementById("graph-controls");
+  var btnAll = document.createElement("button");
+  btnAll.className = "filter-btn active";
+  btnAll.textContent = "所有关系";
+  btnAll.onclick = function() { switchFilter("all"); };
+  controlsEl.appendChild(btnAll);
+
+  periods.forEach(function(p) {
+    var btn = document.createElement("button");
+    btn.className = "filter-btn";
+    btn.textContent = p.name;
+    btn.dataset.period = p.id;
+    btn.onclick = function() { switchFilter(p.id); };
+    controlsEl.appendChild(btn);
+  });
+
+  function switchFilter(filter) {
+    var btns = controlsEl.querySelectorAll(".filter-btn");
+    btns.forEach(function(b) { b.classList.remove("active"); });
+    if (filter === "all") {
+      btns[0].classList.add("active");
+    } else {
+      controlsEl.querySelector('[data-period="' + filter + '"]').classList.add("active");
+    }
+    render(filter);
+  }
+
+  // ──────────────────────────────────────────────
+  // 5. 初始渲染
+  // ──────────────────────────────────────────────
+  render("all");
+})();
+</script>
+
+
+
+
+
+<div class="posts">
+  
+  <section class="post-entry">
+    <h2 class="post-title">
+      <a href="/2026/08/02/aorie-grad-school-diary/">
+        AORIE的读研日记
+      </a>
+    </h2>
+
+    <div class="post-meta">
+      <time datetime="2026-08-02T20:18:00+08:00">02 Aug 2026</time></div>
+
+    <p>Abstract
+</p>
+  </section>
+  </div>
+
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+  
+    <span class="pagination-item newer">Newer</span>
+  
+</div>
+
+</main>
+
+<footer class="footer"><small>
+    &copy; 2026 <a href="https://github.com/AOR1E/">Liu Shengyu</a>. All rights reserved.
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/vszhub/not-pure-poole">Not Pure Poole</a>.
+  </small>
+</footer>
+</div>
+      <div class="sidebar-right pure-u-1 pure-u-md-1-4">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" integrity="sha384-tLMkTWh2pfXNWGFlUS0w1TFtRG5xZ9lPWFOooj+vDDLIL+xBGQU/voDBY5XE2lVh" crossorigin="anonymous">
+
+<section class="moon-player" aria-label="映月音乐播放器">
+  <div class="moon-player__equalizer" aria-hidden="true">
+    <i></i><i></i><i></i><i></i><i></i>
+  </div>
+  <div class="moon-player__body">
+    <meting-js
+      server="netease"
+      type="playlist"
+      id="2906548894"
+      fixed="false"
+      mini="false"
+      autoplay="false"
+      theme="#8ed8ea"
+      loop="all"
+      order="random"
+      preload="metadata"
+      volume="0.7"
+      list-folded="true"
+      list-max-height="180px">
+    </meting-js>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js" integrity="sha384-gdGYZwHnfJM54evoZhpO0s6ZF5BQiybkiyW7VXr+h5UfruuRL/aORyw+5+HZoU6e" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js" integrity="sha384-ASVlpKF80A22OXTK3tfEjZm1EL6uFMKIC4p8+0maanw1S/IyB+Y4JG+ZDU7GpKE8" crossorigin="anonymous"></script>
+
+<style>
+.moon-player {
+  --moon-ink: #eaf8fc;
+  --moon-muted: rgba(210, 235, 244, 0.55);
+  --moon-line: rgba(174, 224, 239, 0.16);
+  --moon-accent: #8ed8ea;
+  position: relative;
+  isolation: isolate;
+  margin: 0 0 18px;
+  overflow: hidden;
+  border: 1px solid rgba(171, 220, 235, 0.12);
+  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(20, 38, 51, 0.98), rgba(7, 18, 29, 0.99));
+  box-shadow: 0 14px 34px rgba(3, 12, 20, 0.16);
+  font-family: "Inter", "Noto Sans SC", system-ui, sans-serif;
+}
+
+.moon-player__body {
+  padding: 8px;
+}
+
+.moon-player__equalizer {
+  position: absolute;
+  z-index: 3;
+  top: 16px;
+  right: 14px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 15px;
+  pointer-events: none;
+}
+
+.moon-player__equalizer i {
+  display: block;
+  width: 2px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(142, 216, 234, 0.68);
+  animation: moon-eq 1.15s ease-in-out infinite alternate;
+}
+
+.moon-player__equalizer i:nth-child(2) { animation-delay: -0.45s; }
+.moon-player__equalizer i:nth-child(3) { animation-delay: -0.8s; }
+.moon-player__equalizer i:nth-child(4) { animation-delay: -0.25s; }
+.moon-player__equalizer i:nth-child(5) { animation-delay: -0.65s; }
+
+@keyframes moon-eq {
+  from { height: 4px; opacity: 0.42; }
+  to { height: 14px; opacity: 0.9; }
+}
+
+.moon-player .aplayer {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.045);
+  box-shadow: none;
+  color: var(--moon-ink);
+}
+
+.moon-player .aplayer-body {
+  min-height: 72px;
+}
+
+.moon-player .aplayer .aplayer-pic {
+  width: 72px;
+  height: 72px;
+}
+
+.moon-player .aplayer .aplayer-pic .aplayer-button {
+  border-color: rgba(255, 255, 255, 0.75);
+  background: rgba(5, 18, 28, 0.42);
+  backdrop-filter: blur(4px);
+}
+
+.moon-player .aplayer .aplayer-info {
+  height: 72px;
+  margin-left: 72px;
+  padding: 11px 10px 0;
+  border: 0;
+}
+
+.moon-player .aplayer .aplayer-info .aplayer-music {
+  height: 22px;
+  margin: 0 0 3px;
+  padding-right: 28px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.moon-player .aplayer .aplayer-lrc::before,
+.moon-player .aplayer .aplayer-lrc::after {
+  display: none !important;
+  background: none !important;
+}
+
+.moon-player .aplayer .aplayer-title {
+  color: var(--moon-ink);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.moon-player .aplayer .aplayer-author {
+  color: var(--moon-muted);
+  font-size: 10px;
+}
+
+.moon-player .aplayer .aplayer-controller .aplayer-bar-wrap {
+  margin: 0 0 0 3px;
+  padding: 5px 0;
+}
+
+.moon-player .aplayer .aplayer-bar {
+  height: 2px;
+  border-radius: 2px;
+  background: rgba(205, 230, 237, 0.08) !important;
+}
+
+.moon-player .aplayer .aplayer-loaded {
+  height: 2px;
+  border-radius: 2px;
+  background: rgba(205, 230, 237, 0.14) !important;
+}
+
+.moon-player .aplayer .aplayer-played {
+  height: 2px;
+  background: linear-gradient(90deg, #79c8dc, #d7f2f7) !important;
+}
+
+.moon-player .aplayer .aplayer-thumb {
+  width: 7px;
+  height: 7px;
+  margin-top: -3px;
+  background: #d7f2f7 !important;
+  box-shadow: 0 0 7px rgba(142, 216, 234, 0.55);
+}
+
+.moon-player .aplayer .aplayer-time {
+  bottom: 7px;
+  color: rgba(220, 240, 246, 0.48);
+  font-size: 9px;
+}
+
+.moon-player .aplayer .aplayer-icon path {
+  fill: rgba(223, 243, 248, 0.72);
+}
+
+.moon-player .aplayer .aplayer-list {
+  border: 0;
+  border-top: 1px solid var(--moon-line);
+}
+
+.moon-player .aplayer .aplayer-list ol {
+  background: rgba(4, 15, 24, 0.24);
+}
+
+.moon-player .aplayer .aplayer-list ol li {
+  height: 30px;
+  padding: 0 9px;
+  border-top-color: rgba(193, 228, 238, 0.07);
+  color: rgba(224, 242, 247, 0.62);
+  font-size: 10px;
+  line-height: 30px;
+}
+
+.moon-player .aplayer .aplayer-list ol li:hover,
+.moon-player .aplayer .aplayer-list ol li.aplayer-list-light {
+  background: rgba(142, 216, 234, 0.09);
+  color: var(--moon-ink);
+}
+
+.moon-player .aplayer .aplayer-list-index,
+.moon-player .aplayer .aplayer-list-author {
+  color: rgba(211, 235, 242, 0.34) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .moon-player__equalizer i {
+    animation: none;
+  }
+}
+
+</style>
+
+<div id="page-sidebar-context">
+
+  <aside
+  class="workout-planner"
+  data-workout-planner
+  data-dataset-url="/assets/data/exercises-lite.json"
+  aria-labelledby="workout-planner-title">
+  <header class="workout-planner__header">
+    <p class="workout-planner__eyebrow">TRAINING LAB</p>
+    <h2 id="workout-planner-title">定制训练计划</h2>
+    <p>选择训练条件，生成一周安排。</p>
+  </header>
+
+  <form class="workout-planner__form" data-workout-form>
+    <label>
+      <span>训练目标</span>
+      <select name="goal">
+        <option value="muscle">增肌</option>
+        <option value="strength">基础力量</option>
+        <option value="conditioning">体能</option>
+      </select>
+    </label>
+
+    <label>
+      <span>训练水平</span>
+      <select name="level">
+        <option value="beginner">新手</option>
+        <option value="intermediate">进阶</option>
+      </select>
+    </label>
+
+    <div class="workout-planner__row">
+      <label>
+        <span>每周天数</span>
+        <select name="days">
+          <option value="3">3 天</option>
+          <option value="4">4 天</option>
+          <option value="5">5 天</option>
+        </select>
+      </label>
+
+      <label>
+        <span>现有器械</span>
+        <select name="equipment">
+          <option value="bodyweight">徒手</option>
+          <option value="dumbbell">哑铃</option>
+          <option value="gym">健身房</option>
+        </select>
+      </label>
+    </div>
+
+    <button type="submit">生成计划</button>
+  </form>
+
+  <p class="workout-planner__status" data-workout-status role="status" aria-live="polite">
+    计划会优先选择常见、易执行的动作。
+  </p>
+  <div class="workout-planner__result" data-workout-result hidden></div>
+
+  <footer class="workout-planner__footer">
+    <p>仅供一般训练参考；疼痛或不适时请停止训练。</p>
+    <a href="https://github.com/hasaneyldrm/exercises-dataset" target="_blank" rel="noopener noreferrer">动作数据：Exercises Dataset（MIT）</a>
+  </footer>
+</aside>
+
+
+</div>
+</div>
+    </div>
+
+    <script async src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/js/all.min.js"></script>
+
+    <script>
+      (function() {
+        var btn = document.getElementById("theme-toggle");
+        var icon = document.getElementById("theme-icon");
+        var html = document.documentElement;
+
+        function setTheme(theme) {
+          if (theme === "dark") {
+            html.setAttribute("data-theme", "dark");
+            icon.textContent = "☀️";
+          } else {
+            html.removeAttribute("data-theme");
+            icon.textContent = "🌙";
+          }
+          try { localStorage.setItem("theme", theme); } catch(e) {}
+        }
+
+        // sync icon on load
+        if (html.getAttribute("data-theme") === "dark") {
+          icon.textContent = "☀️";
+        }
+
+        btn.addEventListener("click", function() {
+          var current = html.getAttribute("data-theme") === "dark" ? "dark" : "light";
+          setTheme(current === "dark" ? "light" : "dark");
+        });
+
+        // follow system when no manual preference
+        var mq = window.matchMedia("(prefers-color-scheme: dark)");
+        mq.addEventListener("change", function(e) {
+          if (!localStorage.getItem("theme")) {
+            setTheme(e.matches ? "dark" : "light");
+          }
+        });
+      })();
+    </script><script>
+  function strip(str, remove) {
+    while (str.length > 0 && remove.indexOf(str.charAt(0)) != -1) {
+      str = str.substr(1);
+    }
+    while (str.length > 0 && remove.indexOf(str.charAt(str.length - 1)) != -1) {
+      str = str.substr(0, str.length - 1);
+    }
+    return str;
+  }
+
+  function scroll() {
+    console.log('scroll');
+    window.scrollTo({
+      left: 0, 
+      top: window.innerHeight,
+      behavior: 'smooth'
+    });
+    sessionStorage.removeItem('forceCheckScroll');
+  }
+
+  const forceCheckScroll = sessionStorage.getItem('forceCheckScroll') === 'true';
+  const checkScroll = strip(window.location.pathname, '/') !== strip('', '/');
+
+  if (forceCheckScroll || checkScroll) {
+    const maxWidth = "(max-width: 48rem)";
+    const result = window.matchMedia(maxWidth);
+    if (result.matches) {
+      scroll();
+    } else {
+      result.addListener((match) => {
+        if (match.media == maxWidth) {
+          if (match.matches) {
+            scroll();
+          }
+        }
+      });
+    }
+  }
+</script>
+<script src="/assets/js/persistent-navigation.js"></script>
+    <script src="/assets/js/workout-planner.js"></script></body>
+</html>
+
+
+

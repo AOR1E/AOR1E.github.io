@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://aor1e.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aor1e.github.io/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-08-05T14:42:03+08:00</updated><id>https://aor1e.github.io/feed.xml</id><title type="html">AOR1Eの小屋</title><subtitle>生命是一万次春和景明</subtitle><author><name>Liu Shengyu</name></author><entry><title type="html">AORIE的读研日记</title><link href="https://aor1e.github.io/2026/08/02/aorie-grad-school-diary/" rel="alternate" type="text/html" title="AORIE的读研日记" /><published>2026-08-02T20:18:00+08:00</published><updated>2026-08-02T20:18:00+08:00</updated><id>https://aor1e.github.io/2026/08/02/aorie-grad-school-diary</id><content type="html" xml:base="https://aor1e.github.io/2026/08/02/aorie-grad-school-diary/"><![CDATA[<h2 id="abstract">Abstract</h2>
+
+<p>Content is coming soon!</p>
+
+<hr />
+
+<h2 id="week-2026-07-25">2026.7.25—2026.8.2</h2>
+
+<p>作为开篇，还是认真的写一下流水账吧。</p>
+
+<hr />
+
+<h3 id="about-research">About <em>Research</em></h3>
+
+<p>本周做的其实不算太多，主题项目的RL发现效果很差，模型又在偷懒，Ovo，移交给CJH重新做了一遍SFT，RL重新设计。</p>
+
+<p>关于Xu KunLun的那篇标签噪声的终身行人重识别，在本次的报告中发现很多问题，采用K-svd字典，但是没有作图，可能在组会没能阐述清楚。不过，问题不大，在弄清楚数据原型就好做了，元哥不算很严。以为周三能够在偷懒两天，我真没招了。下周补一个图给元哥。</p>
+
+<p>可以找一下动机。我觉很关键啊</p>
+
+<hr />
+
+<h3 id="about-gym">About <em>GYM</em></h3>
+
+<p>这里先贴一个本周记录吧</p>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/gym-record.png" alt="本周健身记录" /></p>
+
+<p>8.1那天做了1h的爬坡，第二天就轻了，不知道是不是储水了。</p>
+
+<p>当然，今天又练了腿，没啥感觉呢，应该是适应了，大概是吧，毕竟谁能一周练两次腿呢。^-^…，我真c了</p>
+
+<hr />
+
+<h3 id="about-culinary-skills">About <em>Culinary skills</em></h3>
+
+<p>我感觉这辈子没吃过这么多的鸡胸肉。先放几个图贴在这儿。</p>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/meal-01.png" alt="本周餐食照片 1" /></p>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/meal-02.jpg" alt="本周餐食照片 2" /></p>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/meal-03.jpg" alt="本周餐食照片 3" /></p>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/meal-04.jpg" alt="本周餐食照片 4" /></p>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/meal-05.jpg" alt="本周餐食照片 5" /></p>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/meal-06.jpg" alt="本周餐食照片 6" /></p>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/meal-07.jpg" alt="本周餐食照片 7" /></p>
+
+<p>虽然很多菜，困住我的只有电饭煲，租的房子这里的厨具都很……（留下了一堆不好的话然后离开了），所以在抖音职业技术大学，搜索如何用平底锅蒸米饭。</p>
+
+<p>具体方法如下：</p>
+
+<ol>
+  <li>淘米，水:米=1:1</li>
+  <li>大火煮至沸腾，切中小火，盖盖，煮10分钟，关火焖3分钟。这样就能得到还算不错的米饭。</li>
+</ol>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/rice-steps.png" alt="平底锅蒸米饭步骤" /></p>
+
+<p><img class="diary-image" src="/assets/images/aorie-grad-school-diary/rice-result.jpeg" alt="平底锅蒸米饭成品" /></p>
+
+<p>暂时就写到这儿吧，之后看有没有机会做一个可以点菜的小软件。</p>
+
+<hr />
+
+<h3 id="others">Others</h3>
+
+<p>练腿日 下午去看了电影《蜘蛛侠4：崭新之日》，不是漫威迷，但一部电影能带给我平静，我觉得很足够了。不然也不会在周天来实验室，写周记了。</p>
+
+<p>现在是20:11，尧师兄还在奋斗金铲铲。</p>
+
+<p>天微微黑，雨将下未下……</p>]]></content><author><name>Liu Shengyu</name></author><category term="读研日记" /><category term="日常" /><summary type="html"><![CDATA[Abstract]]></summary></entry></feed>
